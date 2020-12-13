@@ -114,7 +114,7 @@ markup4.add(ad, good)
 
 @bot.message_handler(commands=['start'])
 def start_msg(message):
-    sti = open('/home/BShbot/mysite/static/BSbot.webp', 'rb')
+    sti = open('BSbot/static/BSbot.webp', 'rb')
     bot.send_sticker(message.chat.id, sti)
     bot.send_message(message.chat.id,
                      f'Привет {message.from_user.first_name}, я BSbot, который создавался для курсовой работы. Выберите нужный тип гороскопа:',
