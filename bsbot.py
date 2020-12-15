@@ -8,7 +8,7 @@ from urllib.request import urlopen
 
 token = '1432717319:AAE_qoD6coUgmcT5CTQAb-jqP0Q2KtV_B20'
 secret = 'ioufbvewgr2492yf2gh'
-url = 'https://bshbot.pythonanywhere.com/' + secret
+url = 'https://vast-sierra-77922.herokuapp.com/' + secret
 
 bot = telebot.TeleBot(token, threaded=False)
 bot.remove_webhook()
