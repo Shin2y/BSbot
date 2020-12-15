@@ -1,1 +1,1 @@
-web: python3 g5.py
+web: python3 g5.py -p $PORT
