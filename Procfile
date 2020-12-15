@@ -1,0 +1,1 @@
+web: python3 g5.py
